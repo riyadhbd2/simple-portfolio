@@ -1,0 +1,151 @@
+/* General styles */
+body {
+    container: auto;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("assets/Hero-bg.png");
+    background-repeat: none;
+}
+.one a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.one img{
+    height: 400px;
+    width: auto;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+
+}
+.two-main{
+    text-align: center;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.first-one{
+    padding: 20px;
+    width: 50%;
+}
+.first-two{
+    padding: 20px;
+    width: 30%;
+}
+.first-two img{
+    display: flex;
+    align-items: center;
+}
+.second{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+.second-one{
+    width: 30%;
+    padding: 20px;
+}
+.second-two{
+    width: 50%;
+    padding: 20px;
+}
+.inspiration-one{
+    text-align: center;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    width: auto;
+    
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.four-text{
+    text-align: center;
+}
+.card-one{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-two{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-three{
+    background-color: goldenrod;
+    border-radius: 10px;
+    padding: 20px;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/handshake.jpg");
+    background-repeat: none;
+    padding: 40px;
+    margin: 70px;
+    border-radius: 10px;
+    
+}
+.five-text{
+    color: white;
+    text-align: center;
+}
+.five-two{
+    display: flex;
+    gap: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: azure;
+    margin-top: 20px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
